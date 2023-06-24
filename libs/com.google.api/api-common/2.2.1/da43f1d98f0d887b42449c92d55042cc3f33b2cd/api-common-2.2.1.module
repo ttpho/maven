@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.api",
+    "module": "api-common",
+    "version": "2.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.2",
+      "buildId": "hpiajjllwrhyzmmupay4szpszu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "api-common-2.2.1.jar",
+          "url": "api-common-2.2.1.jar",
+          "size": 48653,
+          "sha512": "a0cf4142db389b55fb3e98f4bf08d7c9dc4e94ab4b2cd670b4e09b306ae1f03bab5fbad7be05b2fb71f823686a72785033c3cc9385937ae2eed88edffdc27098",
+          "sha256": "197b23f2d22324a923e5d643d1c71c51442ae7b9b166fe6ecd5ad9b6916689b5",
+          "sha1": "9eb62c522f96befccfbd8c92bafc952eed4417a8",
+          "md5": "3184009d556a26df70ee2db5d41d827a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-common-2.2.1.jar",
+          "url": "api-common-2.2.1.jar",
+          "size": 48653,
+          "sha512": "a0cf4142db389b55fb3e98f4bf08d7c9dc4e94ab4b2cd670b4e09b306ae1f03bab5fbad7be05b2fb71f823686a72785033c3cc9385937ae2eed88edffdc27098",
+          "sha256": "197b23f2d22324a923e5d643d1c71c51442ae7b9b166fe6ecd5ad9b6916689b5",
+          "sha1": "9eb62c522f96befccfbd8c92bafc952eed4417a8",
+          "md5": "3184009d556a26df70ee2db5d41d827a"
+        }
+      ]
+    }
+  ]
+}

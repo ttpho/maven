@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.okhttp3",
+    "module": "logging-interceptor",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "xr43yykyeze2npw4mtxrle7kbm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-interceptor-4.8.1.jar",
+          "url": "logging-interceptor-4.8.1.jar",
+          "size": 15796,
+          "sha512": "1676476a1326db408546bd7951b550fe49afa0765112ae1f0af4e5f9da920750fdcf80d650fd5ab7ac0b35359df9aeb8b1a2ab55a6be0b32e9391705a851a42c",
+          "sha256": "68b2d9d85689b8e4062d88757328df1e3c9302515559f906bb714da49a6c32ad",
+          "sha1": "b9d991a3fe3976efd00888f2d3aeace1b6358442",
+          "md5": "c6318918978199864c617ea3909a9730"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-interceptor-4.8.1.jar",
+          "url": "logging-interceptor-4.8.1.jar",
+          "size": 15796,
+          "sha512": "1676476a1326db408546bd7951b550fe49afa0765112ae1f0af4e5f9da920750fdcf80d650fd5ab7ac0b35359df9aeb8b1a2ab55a6be0b32e9391705a851a42c",
+          "sha256": "68b2d9d85689b8e4062d88757328df1e3c9302515559f906bb714da49a6c32ad",
+          "sha1": "b9d991a3fe3976efd00888f2d3aeace1b6358442",
+          "md5": "c6318918978199864c617ea3909a9730"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "logging-interceptor-4.8.1-javadoc.jar",
+          "url": "logging-interceptor-4.8.1-javadoc.jar",
+          "size": 261,
+          "sha512": "f05a87b8a248c9c453c5af5854661c005ab0e0ed811288ed82e0c3cf636813e9a63bddc03e74358c359271786c0b3645a803cd6fd272aa5cb5ac6c9b76c78f39",
+          "sha256": "b61e110ac1df659cd42bd41096af5c0a0767bf8cd09d269b63abd8432975dc87",
+          "sha1": "975e564b56cd7eb64521f30ba80b9d9b025284ef",
+          "md5": "d809648602202b62069a9f708a2295cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "logging-interceptor-4.8.1-sources.jar",
+          "url": "logging-interceptor-4.8.1-sources.jar",
+          "size": 5991,
+          "sha512": "54ee38edb6089ed7a95c79962a9b17d241f22c707a19d6f057f7c269eacae345bbff54111d1d9e649861a59f5d52b7b66e0ea3290aeceafed8a26c462c7f56dc",
+          "sha256": "2e00c7193e41710875a18c2ab41fd45d633badfb8c4b127e6daf98d6efd40d9a",
+          "sha1": "dd089ec870cfe9d854ed60eb958e4a020d63756f",
+          "md5": "05ee2fd690ef03b7326c100e1bb6399a"
+        }
+      ]
+    }
+  ]
+}

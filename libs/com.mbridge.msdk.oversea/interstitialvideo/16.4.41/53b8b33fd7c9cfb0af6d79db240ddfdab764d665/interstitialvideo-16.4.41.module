@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "interstitialvideo",
+    "version": "16.4.41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ex5aso3aqbahhpbzommh433qyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videojs",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "reward",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interstitialvideo-16.4.41.aar",
+          "url": "interstitialvideo-16.4.41.aar",
+          "size": 8536,
+          "sha512": "f24ea6254569e9fd0d6f881939f46122502747e7f95d09f38dec1b748031fbe5b840d54d97177dbb2691a9504de5013eb370b238576afdb0344ca51b9300fe16",
+          "sha256": "0876db09a62ef09dab0a03c8283ad50e619556b7c6c29f696eb9494de6dea69e",
+          "sha1": "26dc8be371914252198fd035e4c132eba139b46b",
+          "md5": "54913b3c20ec1f2db261bd171fc1ecb9"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videojs",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "reward",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interstitialvideo-16.4.41.aar",
+          "url": "interstitialvideo-16.4.41.aar",
+          "size": 8536,
+          "sha512": "f24ea6254569e9fd0d6f881939f46122502747e7f95d09f38dec1b748031fbe5b840d54d97177dbb2691a9504de5013eb370b238576afdb0344ca51b9300fe16",
+          "sha256": "0876db09a62ef09dab0a03c8283ad50e619556b7c6c29f696eb9494de6dea69e",
+          "sha1": "26dc8be371914252198fd035e4c132eba139b46b",
+          "md5": "54913b3c20ec1f2db261bd171fc1ecb9"
+        }
+      ]
+    }
+  ]
+}

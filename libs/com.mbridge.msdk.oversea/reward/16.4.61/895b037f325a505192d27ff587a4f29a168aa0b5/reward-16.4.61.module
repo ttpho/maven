@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "reward",
+    "version": "16.4.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ybz57sd5wvauzb7lms26zkxb3i"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videojs",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "dycreator",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reward-16.4.61.aar",
+          "url": "reward-16.4.61.aar",
+          "size": 163260,
+          "sha512": "aa5a0f1920de873e4d094e0365a2251fa6b1cb6744e4a00e5ffd947a894fb1b57001704f53c75d6c50f7bd6b443ba8b3b61c04627327a7e761c873e0d1a23481",
+          "sha256": "f57efeeb879104652ac3f59a011a2f95b6675761706e784966186a9f60811f96",
+          "sha1": "75fa922be6bbe8b86a62c8558600615b493fd5dc",
+          "md5": "cfa624515d058d1de7621e0e2d9d2318"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videojs",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "dycreator",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reward-16.4.61.aar",
+          "url": "reward-16.4.61.aar",
+          "size": 163260,
+          "sha512": "aa5a0f1920de873e4d094e0365a2251fa6b1cb6744e4a00e5ffd947a894fb1b57001704f53c75d6c50f7bd6b443ba8b3b61c04627327a7e761c873e0d1a23481",
+          "sha256": "f57efeeb879104652ac3f59a011a2f95b6675761706e784966186a9f60811f96",
+          "sha1": "75fa922be6bbe8b86a62c8558600615b493fd5dc",
+          "md5": "cfa624515d058d1de7621e0e2d9d2318"
+        }
+      ]
+    }
+  ]
+}

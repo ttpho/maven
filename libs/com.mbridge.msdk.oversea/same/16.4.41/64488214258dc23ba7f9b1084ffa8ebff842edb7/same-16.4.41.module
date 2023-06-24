@@ -1,0 +1,59 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "same",
+    "version": "16.4.41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ex5aso3aqbahhpbzommh433qyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "same-16.4.41.aar",
+          "url": "same-16.4.41.aar",
+          "size": 1296482,
+          "sha512": "1591d7e0772543d3d49282454f44cf5a834fcf261f3e2c0d00c1bfc786c62558f9de79e78e8a63dd85af6f1704604b31a0c769cd1af54c9bce379ff2f3c59f7d",
+          "sha256": "c1f6ed318a6ed93d76ef1f0e1a975b9dfd26a7f13faf5486fc29d012bb36e7ee",
+          "sha1": "c47fc5bd1ea0d5230a40e5ab150d97bbfe467b44",
+          "md5": "91dde4ef2108a32f7c42ed756b50cbb5"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "same-16.4.41.aar",
+          "url": "same-16.4.41.aar",
+          "size": 1296482,
+          "sha512": "1591d7e0772543d3d49282454f44cf5a834fcf261f3e2c0d00c1bfc786c62558f9de79e78e8a63dd85af6f1704604b31a0c769cd1af54c9bce379ff2f3c59f7d",
+          "sha256": "c1f6ed318a6ed93d76ef1f0e1a975b9dfd26a7f13faf5486fc29d012bb36e7ee",
+          "sha1": "c47fc5bd1ea0d5230a40e5ab150d97bbfe467b44",
+          "md5": "91dde4ef2108a32f7c42ed756b50cbb5"
+        }
+      ]
+    }
+  ]
+}

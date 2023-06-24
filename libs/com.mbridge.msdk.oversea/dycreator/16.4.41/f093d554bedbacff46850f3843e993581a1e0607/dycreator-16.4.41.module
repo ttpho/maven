@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "dycreator",
+    "version": "16.4.41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ex5aso3aqbahhpbzommh433qyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dycreator-16.4.41.aar",
+          "url": "dycreator-16.4.41.aar",
+          "size": 243587,
+          "sha512": "3792af4dde9cdd69b24b55aa5eaa1d23789e2f0c96f34b26feed4b7b1b3b02ccaca57472d5c1f2ac4f39108cb852feef5c3d569f2d260d4528b6491d538591c7",
+          "sha256": "e40d35ca94a7e24ef8ab8c0190be70f508162faf90b1596ec8bcd24aa85f89ef",
+          "sha1": "07e675bd9156a1e10058502e286af4997fc522fa",
+          "md5": "d6ace2dcafe9a99dcb55b278bc380cbd"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dycreator-16.4.41.aar",
+          "url": "dycreator-16.4.41.aar",
+          "size": 243587,
+          "sha512": "3792af4dde9cdd69b24b55aa5eaa1d23789e2f0c96f34b26feed4b7b1b3b02ccaca57472d5c1f2ac4f39108cb852feef5c3d569f2d260d4528b6491d538591c7",
+          "sha256": "e40d35ca94a7e24ef8ab8c0190be70f508162faf90b1596ec8bcd24aa85f89ef",
+          "sha1": "07e675bd9156a1e10058502e286af4997fc522fa",
+          "md5": "d6ace2dcafe9a99dcb55b278bc380cbd"
+        }
+      ]
+    }
+  ]
+}

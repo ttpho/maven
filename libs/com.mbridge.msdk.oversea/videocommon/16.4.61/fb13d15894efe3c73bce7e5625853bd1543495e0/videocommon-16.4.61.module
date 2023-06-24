@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "videocommon",
+    "version": "16.4.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ybz57sd5wvauzb7lms26zkxb3i"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videocommon-16.4.61.aar",
+          "url": "videocommon-16.4.61.aar",
+          "size": 104910,
+          "sha512": "8833def80dedbd59f6af26e54ab4c096897e7b8cecc8c27f2f2784a71df0d028711094237d60b6f3aef5bc515711978f95af109cc2a436b47de63885513ea2ef",
+          "sha256": "738ed1e09cd5757b84770db6b8aaa9e87180aad94b33db459a0e4b6403e36df2",
+          "sha1": "969a81a51b9993eff74c21f1561612ea27b33a64",
+          "md5": "231f4635da64c17c9faff64980f6a915"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videocommon-16.4.61.aar",
+          "url": "videocommon-16.4.61.aar",
+          "size": 104910,
+          "sha512": "8833def80dedbd59f6af26e54ab4c096897e7b8cecc8c27f2f2784a71df0d028711094237d60b6f3aef5bc515711978f95af109cc2a436b47de63885513ea2ef",
+          "sha256": "738ed1e09cd5757b84770db6b8aaa9e87180aad94b33db459a0e4b6403e36df2",
+          "sha1": "969a81a51b9993eff74c21f1561612ea27b33a64",
+          "md5": "231f4635da64c17c9faff64980f6a915"
+        }
+      ]
+    }
+  ]
+}

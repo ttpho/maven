@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "videojs",
+    "version": "16.4.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ybz57sd5wvauzb7lms26zkxb3i"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videojs-16.4.61.aar",
+          "url": "videojs-16.4.61.aar",
+          "size": 783349,
+          "sha512": "b7a51850909afee1c91e5204f38d7315e128f62046e154dd9988638cdb3b220ce6a35609aeb5a8703b98cc760e9cb169945697d0ad20f1dbb38ba6c7fc3b746c",
+          "sha256": "ce63cf79cf67967e8f333f2361c1602e606abe4bb10016bf1761763e2e96ef03",
+          "sha1": "e5d442dfba3be3928e1a459f98f396d72867446d",
+          "md5": "7889db23395aeb431761e6d3f112bb2a"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videojs-16.4.61.aar",
+          "url": "videojs-16.4.61.aar",
+          "size": 783349,
+          "sha512": "b7a51850909afee1c91e5204f38d7315e128f62046e154dd9988638cdb3b220ce6a35609aeb5a8703b98cc760e9cb169945697d0ad20f1dbb38ba6c7fc3b746c",
+          "sha256": "ce63cf79cf67967e8f333f2361c1602e606abe4bb10016bf1761763e2e96ef03",
+          "sha1": "e5d442dfba3be3928e1a459f98f396d72867446d",
+          "md5": "7889db23395aeb431761e6d3f112bb2a"
+        }
+      ]
+    }
+  ]
+}

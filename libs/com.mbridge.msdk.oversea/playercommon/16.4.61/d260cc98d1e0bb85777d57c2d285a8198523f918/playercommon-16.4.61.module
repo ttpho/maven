@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "playercommon",
+    "version": "16.4.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ybz57sd5wvauzb7lms26zkxb3i"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "playercommon-16.4.61.aar",
+          "url": "playercommon-16.4.61.aar",
+          "size": 1075704,
+          "sha512": "1488063cd6b36533a09ed25423886cf923e8ceeda5fdf37f5de536dc3c3ea5e66ac81a2fdfa0f26a39641c3d3fe0541f293ed431348fa423df38e7e51aee0ddf",
+          "sha256": "eab4ec73546e5a5cbc6707d44cbd5f55d4718eacb2fa561737b9b995b881f24f",
+          "sha1": "be0de481d1ca6dcee947de037666b766f5898fbc",
+          "md5": "17a83a1daa5782837d72d4f07ac034eb"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "playercommon-16.4.61.aar",
+          "url": "playercommon-16.4.61.aar",
+          "size": 1075704,
+          "sha512": "1488063cd6b36533a09ed25423886cf923e8ceeda5fdf37f5de536dc3c3ea5e66ac81a2fdfa0f26a39641c3d3fe0541f293ed431348fa423df38e7e51aee0ddf",
+          "sha256": "eab4ec73546e5a5cbc6707d44cbd5f55d4718eacb2fa561737b9b995b881f24f",
+          "sha1": "be0de481d1ca6dcee947de037666b766f5898fbc",
+          "md5": "17a83a1daa5782837d72d4f07ac034eb"
+        }
+      ]
+    }
+  ]
+}

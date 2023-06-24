@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "mbnative",
+    "version": "16.4.41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ex5aso3aqbahhpbzommh433qyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "nativeex",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mbnative-16.4.41.aar",
+          "url": "mbnative-16.4.41.aar",
+          "size": 73338,
+          "sha512": "cece223e851026948da96e1a284690cae9ba8db97d25542b760f9e6ed03628c915b45b8851ddf920de2e3d722d9e85e05e30c8ad2229776c3bf55145a337398b",
+          "sha256": "3cf2e06239efd67dbb400f99150904a42f7ec08db8e5fdba4685ba90de43c3cc",
+          "sha1": "fcebd597502e55f64dedfde45e683db4346c91f9",
+          "md5": "48f6760dc4bb0d7274df6e3f83ec25ba"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "nativeex",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mbnative-16.4.41.aar",
+          "url": "mbnative-16.4.41.aar",
+          "size": 73338,
+          "sha512": "cece223e851026948da96e1a284690cae9ba8db97d25542b760f9e6ed03628c915b45b8851ddf920de2e3d722d9e85e05e30c8ad2229776c3bf55145a337398b",
+          "sha256": "3cf2e06239efd67dbb400f99150904a42f7ec08db8e5fdba4685ba90de43c3cc",
+          "sha1": "fcebd597502e55f64dedfde45e683db4346c91f9",
+          "md5": "48f6760dc4bb0d7274df6e3f83ec25ba"
+        }
+      ]
+    }
+  ]
+}

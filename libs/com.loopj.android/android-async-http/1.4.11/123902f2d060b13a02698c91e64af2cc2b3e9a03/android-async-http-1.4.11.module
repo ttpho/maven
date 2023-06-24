@@ -1,0 +1,71 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loopj.android",
+    "module": "android-async-http",
+    "version": "1.4.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4.1",
+      "buildId": "c42k4sbu6najleas23aoaxm76a"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "cz.msebera.android",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-async-http-1.4.11.aar",
+          "url": "android-async-http-1.4.11.aar",
+          "size": 102951,
+          "sha512": "6662ffe157c42a2417ba82bd40ee486e140cee2734eb36d362bd2b7210483b936cd011a2f67bbd7572538c5503a33d73c0156975d65140889e22ea50063dd3fe",
+          "sha256": "6e35933c2466a3df3228f7da2b9176257541da7df21384f089ef440c647b41b8",
+          "sha1": "680d06baa6910deb73bd6d92de64b4f4bf994707",
+          "md5": "4d9690f64b5b63a5e8c88878b7de8277"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "cz.msebera.android",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-async-http-1.4.11.aar",
+          "url": "android-async-http-1.4.11.aar",
+          "size": 102951,
+          "sha512": "6662ffe157c42a2417ba82bd40ee486e140cee2734eb36d362bd2b7210483b936cd011a2f67bbd7572538c5503a33d73c0156975d65140889e22ea50063dd3fe",
+          "sha256": "6e35933c2466a3df3228f7da2b9176257541da7df21384f089ef440c647b41b8",
+          "sha1": "680d06baa6910deb73bd6d92de64b4f4bf994707",
+          "md5": "4d9690f64b5b63a5e8c88878b7de8277"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "nativeex",
+    "version": "16.4.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ybz57sd5wvauzb7lms26zkxb3i"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeex-16.4.61.aar",
+          "url": "nativeex-16.4.61.aar",
+          "size": 120971,
+          "sha512": "1080afc0e237ab41eb12b7840b91fc60ede04cd19ac9d9b5045ade08185b7b50c89c5b26b276cfe126af0ebfe9c0ca264795c3879916f40a6d3d34be69a198cb",
+          "sha256": "be6027c7e1e8add8a7e065ad576a455eff70324d7c7e72ae037d2c9094495e77",
+          "sha1": "85ae9b647bc8ba07ebd1effa85686cc0d305f030",
+          "md5": "3eb4da7e2d51be5835d5defdbfda2e7a"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeex-16.4.61.aar",
+          "url": "nativeex-16.4.61.aar",
+          "size": 120971,
+          "sha512": "1080afc0e237ab41eb12b7840b91fc60ede04cd19ac9d9b5045ade08185b7b50c89c5b26b276cfe126af0ebfe9c0ca264795c3879916f40a6d3d34be69a198cb",
+          "sha256": "be6027c7e1e8add8a7e065ad576a455eff70324d7c7e72ae037d2c9094495e77",
+          "sha1": "85ae9b647bc8ba07ebd1effa85686cc0d305f030",
+          "md5": "3eb4da7e2d51be5835d5defdbfda2e7a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "mbjscommon",
+    "version": "16.4.41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ex5aso3aqbahhpbzommh433qyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mbjscommon-16.4.41.aar",
+          "url": "mbjscommon-16.4.41.aar",
+          "size": 51616,
+          "sha512": "1e2abbe5673f5c18822a6352cf5123615ab6d7715a864f06fc58d39e5e5cdbc27fd1fb688f81763f9f3c0f61857ab2ea27dd242dcb6aa5d06059e3cf584d3ddc",
+          "sha256": "76c148d1e5ef5f7778d20bd0916c40795489a6e0893096fb6f055b2d4423c093",
+          "sha1": "30cb058b6fdf2792d3b539b9160e55cd97937045",
+          "md5": "8a72b1ada96e7b244511ce7a9e088343"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mbjscommon-16.4.41.aar",
+          "url": "mbjscommon-16.4.41.aar",
+          "size": 51616,
+          "sha512": "1e2abbe5673f5c18822a6352cf5123615ab6d7715a864f06fc58d39e5e5cdbc27fd1fb688f81763f9f3c0f61857ab2ea27dd242dcb6aa5d06059e3cf584d3ddc",
+          "sha256": "76c148d1e5ef5f7778d20bd0916c40795489a6e0893096fb6f055b2d4423c093",
+          "sha1": "30cb058b6fdf2792d3b539b9160e55cd97937045",
+          "md5": "8a72b1ada96e7b244511ce7a9e088343"
+        }
+      ]
+    }
+  ]
+}

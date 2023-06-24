@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "newinterstitial",
+    "version": "16.4.41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ex5aso3aqbahhpbzommh433qyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videojs",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "reward",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "interstitialvideo",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "newinterstitial-16.4.41.aar",
+          "url": "newinterstitial-16.4.41.aar",
+          "size": 10505,
+          "sha512": "3169054cfddfe02c76b344351c111a5bd0106cb1127447fb96a58668983f4650503c2edd32d468d2d7e1c8b26cb4eec7991b2ff7fa6b8c2f161085a22f20c6aa",
+          "sha256": "7024d726dcc9146673c27f65f0e0ceb8e1bfc64d5a9527703aea52d62bc2b9c7",
+          "sha1": "b501a3c5340bb7df81761e2f45bee8e7b08cf5c3",
+          "md5": "5d5288801d0a5d60fb28afdd8574e449"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videojs",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "playercommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "reward",
+          "version": {
+            "requires": "16.4.41"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "interstitialvideo",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "newinterstitial-16.4.41.aar",
+          "url": "newinterstitial-16.4.41.aar",
+          "size": 10505,
+          "sha512": "3169054cfddfe02c76b344351c111a5bd0106cb1127447fb96a58668983f4650503c2edd32d468d2d7e1c8b26cb4eec7991b2ff7fa6b8c2f161085a22f20c6aa",
+          "sha256": "7024d726dcc9146673c27f65f0e0ceb8e1bfc64d5a9527703aea52d62bc2b9c7",
+          "sha1": "b501a3c5340bb7df81761e2f45bee8e7b08cf5c3",
+          "md5": "5d5288801d0a5d60fb28afdd8574e449"
+        }
+      ]
+    }
+  ]
+}

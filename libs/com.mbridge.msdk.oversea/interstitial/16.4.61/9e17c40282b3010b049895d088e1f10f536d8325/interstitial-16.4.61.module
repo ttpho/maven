@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "interstitial",
+    "version": "16.4.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ybz57sd5wvauzb7lms26zkxb3i"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interstitial-16.4.61.aar",
+          "url": "interstitial-16.4.61.aar",
+          "size": 50401,
+          "sha512": "bcf2bff7dd74b7692ca79cea8ff571f6d52ffeb95c90be07c0545edd05e5d994a48dd44a58d41eeb4db5e472172dded110db0b075a1365d8bc8cca94a32ecf88",
+          "sha256": "9e81d389baea0cb0a3fca403545ed45f373e8bc1f025c21dfde93d3f853c3ab1",
+          "sha1": "9beee938d41387ee6bb90345f593cb30b43f914d",
+          "md5": "d83abba2d2702e09c041dc1753c39d1b"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interstitial-16.4.61.aar",
+          "url": "interstitial-16.4.61.aar",
+          "size": 50401,
+          "sha512": "bcf2bff7dd74b7692ca79cea8ff571f6d52ffeb95c90be07c0545edd05e5d994a48dd44a58d41eeb4db5e472172dded110db0b075a1365d8bc8cca94a32ecf88",
+          "sha256": "9e81d389baea0cb0a3fca403545ed45f373e8bc1f025c21dfde93d3f853c3ab1",
+          "sha1": "9beee938d41387ee6bb90345f593cb30b43f914d",
+          "md5": "d83abba2d2702e09c041dc1753c39d1b"
+        }
+      ]
+    }
+  ]
+}

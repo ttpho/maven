@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "mbbanner",
+    "version": "16.4.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ybz57sd5wvauzb7lms26zkxb3i"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mbbanner-16.4.61.aar",
+          "url": "mbbanner-16.4.61.aar",
+          "size": 71893,
+          "sha512": "0e952a16335f72cc3886ee7ee3c3563568d92569b368f63dea540f8ec83c29b0826a403be9f0ec9903284acaa76b41704e49b9aa6d83d52b89849800620c6e7f",
+          "sha256": "169c002d5d8518920d10b292c2116b5f03611c2a054e5d61ff8c10c111b2bcab",
+          "sha1": "cf99351f763ec5ec0915e5fe16deddbe0e00f1f7",
+          "md5": "ce5d8e5f78e93a3cba8e63ab74d94272"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbjscommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "videocommon",
+          "version": {
+            "requires": "16.4.61"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mbbanner-16.4.61.aar",
+          "url": "mbbanner-16.4.61.aar",
+          "size": 71893,
+          "sha512": "0e952a16335f72cc3886ee7ee3c3563568d92569b368f63dea540f8ec83c29b0826a403be9f0ec9903284acaa76b41704e49b9aa6d83d52b89849800620c6e7f",
+          "sha256": "169c002d5d8518920d10b292c2116b5f03611c2a054e5d61ff8c10c111b2bcab",
+          "sha1": "cf99351f763ec5ec0915e5fe16deddbe0e00f1f7",
+          "md5": "ce5d8e5f78e93a3cba8e63ab74d94272"
+        }
+      ]
+    }
+  ]
+}

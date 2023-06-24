@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mbridge.msdk.oversea",
+    "module": "videojs",
+    "version": "16.4.41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ex5aso3aqbahhpbzommh433qyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "overseaReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videojs-16.4.41.aar",
+          "url": "videojs-16.4.41.aar",
+          "size": 781675,
+          "sha512": "d1ad6bcc343f22132da773d7d09fc434dba5aac838b186ba86494dff4aec7a993f4ee9be46ffd2f8a3699ba9bbf1374096067ae08765c0a1364764356e1ac293",
+          "sha256": "fd7ac4bd86e0a9fdee2cc0e8fd9c35217b0c03a754bf2e5531d829d0f415cc55",
+          "sha1": "1b22befdfbe9e7d698e3e966f712e4d8ce6f4b17",
+          "md5": "9555e10c2f3ff00b9b985328460a0543"
+        }
+      ]
+    },
+    {
+      "name": "overseaReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "same",
+          "version": {
+            "requires": "16.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videojs-16.4.41.aar",
+          "url": "videojs-16.4.41.aar",
+          "size": 781675,
+          "sha512": "d1ad6bcc343f22132da773d7d09fc434dba5aac838b186ba86494dff4aec7a993f4ee9be46ffd2f8a3699ba9bbf1374096067ae08765c0a1364764356e1ac293",
+          "sha256": "fd7ac4bd86e0a9fdee2cc0e8fd9c35217b0c03a754bf2e5531d829d0f415cc55",
+          "sha1": "1b22befdfbe9e7d698e3e966f712e4d8ce6f4b17",
+          "md5": "9555e10c2f3ff00b9b985328460a0543"
+        }
+      ]
+    }
+  ]
+}

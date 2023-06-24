@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.unity3d.ads</groupId>
+  <artifactId>unity-ads</artifactId>
+  <version>4.6.1</version>
+  <packaging>aar</packaging>
+  <name>unity-ads</name>
+  <description>Monetize your entire player base and reach new audiences with video ads.</description>
+  <url>https://github.com/Unity-Technologies/unity-ads-android</url>
+  <licenses>
+    <license>
+      <name>Unity Ads License</name>
+      <url>https://unity3d.com/legal/monetization-services-terms-of-service</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Unity Ads</id>
+      <name>Unity Ads</name>
+      <email>ads-sdk@unity3d.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Unity-Technologies/unity-ads-android.git</connection>
+    <developerConnection>https://github.com/Unity-Technologies/unity-ads-android.git</developerConnection>
+    <url>https://github.com/Unity-Technologies/unity-ads-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.32</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.4.3</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.startup</groupId>
+      <artifactId>startup-runtime</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-process</artifactId>
+      <version>2.5.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.unity3d.services.identifiers</groupId>
+      <artifactId>unity-services-identifiers</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>
